@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami</title>
+    <link rel="stylesheet" href="produk.css">
+</head>
+<body>
+    <header>
+        <h1>Kontak Kami</h1>
+    </header>
+    <main>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Hubungi Kami</h2>
+                <p>Alamat: Jl. Tattaran Patar No.123, Tondano Selatan, Sulawesi Utara</p>
+                <p>Telepon: +62 123-456-7890</p>
+                <p>Email: kios@solfide.com</p>
+            </div>
+            <div class="contact-form">
+                <h2>Kirim Pesan</h2>
+                <form action="submit_contact.php" method="post">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Kirim</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
